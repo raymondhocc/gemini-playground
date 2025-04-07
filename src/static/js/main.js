@@ -284,7 +284,7 @@ async function connectToWebsocket() {
         micButton.disabled = false;
         cameraButton.disabled = false;
         screenButton.disabled = false;
-        logMessage('Connected to Gemini 2.0 Flash Multimodal Live API', 'system');
+        logMessage('Connected to NTTCA LLMs 2.5 Multimodal Live API', 'system');
     } catch (error) {
         const errorMessage = error.message || 'Unknown error';
         Logger.error('Connection error:', error);
